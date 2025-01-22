@@ -10,6 +10,8 @@ class Main{
   f
   g
   """;
+  // sysout.print는 정말 느리기 때문에 이 결과를 모아서 한 번에 출력
+  static StringBuilder sb = new StringBuilder();
 
   // BufferedReader, BufferedWriter 사용
   public static void main(String[] args) throws IOException {
@@ -31,9 +33,19 @@ class Main{
     BufferedReader br = new BufferedReader(stringReader);
     // BufferedReader br = new BufferedReader(inputStreamReader);
     
+
+   // sysout.print는 정말 느리기 때문에 이 결과를 모아서 한 번에 출력
+  // StringBuilder sb = new StringBuilder();
+
     String line;
     while ((line = br.readLine()) != null) {
         System.out.println(line);
     }
+
+    // 또는 저장한 거 한번에 읽기
+    sb.append("item").append(' ');
+    System.out.print(sb.toString());
+
+
   }
 }
