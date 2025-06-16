@@ -1,0 +1,21 @@
+// .vscode/launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch file",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${file}"
+    },
+    {
+      "name": "Run Current File",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${fileDirname}", // 현재 열려 있는 파일의 디렉터리 기준
+      "cwd": "${fileDirname}"
+    }
+  ]
+}
