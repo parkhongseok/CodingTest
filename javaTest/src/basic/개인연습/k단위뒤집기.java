@@ -1,4 +1,4 @@
-package basic.면접;
+package basic.개인연습;
 
 public class k단위뒤집기 {
   public String solution(String str, int n){

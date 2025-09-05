@@ -1,4 +1,4 @@
-package basic.면접;
+package basic.개인연습;
 
 import java.util.HashMap;
 import java.util.Map;

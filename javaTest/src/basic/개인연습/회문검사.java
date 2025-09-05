@@ -1,4 +1,4 @@
-package basic.면접;
+package basic.개인연습;
 
 public class 회문검사 {
   // 방법 1. 뒤집고 비교하기

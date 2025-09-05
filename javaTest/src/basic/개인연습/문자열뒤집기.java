@@ -1,4 +1,4 @@
-package basic.면접;
+package basic.개인연습;
 
 public class 문자열뒤집기 {
   public String twoPointer(String str){
